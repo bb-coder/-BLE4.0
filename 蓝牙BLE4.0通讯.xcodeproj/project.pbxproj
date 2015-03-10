@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7303EC71A49302A00A1AA48 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7303EC61A49302A00A1AA48 /* main.m */; };
+		F7303ECA1A49302A00A1AA48 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7303EC91A49302A00A1AA48 /* AppDelegate.m */; };
+		F7303ECC1A49302A00A1AA48 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7303ECB1A49302A00A1AA48 /* Images.xcassets */; };
+		F7303ECF1A49302A00A1AA48 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7303ECD1A49302A00A1AA48 /* LaunchScreen.xib */; };
+		F7303EDB1A49302A00A1AA48 /* __BLE4_0__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7303EDA1A49302A00A1AA48 /* __BLE4_0__Tests.m */; };
+		F7303EE61A49305900A1AA48 /* CBCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7303EE51A49305900A1AA48 /* CBCenterViewController.m */; };
+		F7A62FDB1A52336D009ABA89 /* BleFourCommunication.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A62FDA1A52336D009ABA89 /* BleFourCommunication.m */; };
+		F7B8DDE61A4D30EC000BD7FD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7B8DDE51A4D30EC000BD7FD /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7303ED51A49302A00A1AA48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7303EB91A49302A00A1AA48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7303EC01A49302A00A1AA48;
+			remoteInfo = "蓝牙BLE4.0通讯";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F7303EC11A49302A00A1AA48 /* 蓝牙BLE4.0通讯.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "蓝牙BLE4.0通讯.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7303EC51A49302A00A1AA48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7303EC61A49302A00A1AA48 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F7303EC81A49302A00A1AA48 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F7303EC91A49302A00A1AA48 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F7303ECB1A49302A00A1AA48 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F7303ECE1A49302A00A1AA48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F7303ED41A49302A00A1AA48 /* 蓝牙BLE4.0通讯Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "蓝牙BLE4.0通讯Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7303ED91A49302A00A1AA48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7303EDA1A49302A00A1AA48 /* __BLE4_0__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __BLE4_0__Tests.m; sourceTree = "<group>"; };
+		F7303EE41A49305900A1AA48 /* CBCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBCenterViewController.h; sourceTree = "<group>"; };
+		F7303EE51A49305900A1AA48 /* CBCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBCenterViewController.m; sourceTree = "<group>"; };
+		F7A62FD91A52336D009ABA89 /* BleFourCommunication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BleFourCommunication.h; sourceTree = "<group>"; };
+		F7A62FDA1A52336D009ABA89 /* BleFourCommunication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BleFourCommunication.m; sourceTree = "<group>"; };
+		F7A62FDC1A523516009ABA89 /* BHBSingleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BHBSingleton.h; sourceTree = "<group>"; };
+		F7B8DDE51A4D30EC000BD7FD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7303EBE1A49302A00A1AA48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7303ED11A49302A00A1AA48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7303EB81A49302A00A1AA48 = {
+			isa = PBXGroup;
+			children = (
+				F7B8DDE51A4D30EC000BD7FD /* Default-568h@2x.png */,
+				F7303EC31A49302A00A1AA48 /* 蓝牙BLE4.0通讯 */,
+				F7303ED71A49302A00A1AA48 /* 蓝牙BLE4.0通讯Tests */,
+				F7303EC21A49302A00A1AA48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7303EC21A49302A00A1AA48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7303EC11A49302A00A1AA48 /* 蓝牙BLE4.0通讯.app */,
+				F7303ED41A49302A00A1AA48 /* 蓝牙BLE4.0通讯Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7303EC31A49302A00A1AA48 /* 蓝牙BLE4.0通讯 */ = {
+			isa = PBXGroup;
+			children = (
+				F7A62FD81A52336D009ABA89 /* Ble4.0 */,
+				F7303EE41A49305900A1AA48 /* CBCenterViewController.h */,
+				F7303EE51A49305900A1AA48 /* CBCenterViewController.m */,
+				F7303EC81A49302A00A1AA48 /* AppDelegate.h */,
+				F7303EC91A49302A00A1AA48 /* AppDelegate.m */,
+				F7303ECB1A49302A00A1AA48 /* Images.xcassets */,
+				F7303ECD1A49302A00A1AA48 /* LaunchScreen.xib */,
+				F7303EC41A49302A00A1AA48 /* Supporting Files */,
+			);
+			path = "蓝牙BLE4.0通讯";
+			sourceTree = "<group>";
+		};
+		F7303EC41A49302A00A1AA48 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7303EC51A49302A00A1AA48 /* Info.plist */,
+				F7303EC61A49302A00A1AA48 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F7303ED71A49302A00A1AA48 /* 蓝牙BLE4.0通讯Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F7303EDA1A49302A00A1AA48 /* __BLE4_0__Tests.m */,
+				F7303ED81A49302A00A1AA48 /* Supporting Files */,
+			);
+			path = "蓝牙BLE4.0通讯Tests";
+			sourceTree = "<group>";
+		};
+		F7303ED81A49302A00A1AA48 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7303ED91A49302A00A1AA48 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F7A62FD81A52336D009ABA89 /* Ble4.0 */ = {
+			isa = PBXGroup;
+			children = (
+				F7A62FDC1A523516009ABA89 /* BHBSingleton.h */,
+				F7A62FD91A52336D009ABA89 /* BleFourCommunication.h */,
+				F7A62FDA1A52336D009ABA89 /* BleFourCommunication.m */,
+			);
+			path = Ble4.0;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7303EC01A49302A00A1AA48 /* 蓝牙BLE4.0通讯 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7303EDE1A49302A00A1AA48 /* Build configuration list for PBXNativeTarget "蓝牙BLE4.0通讯" */;
+			buildPhases = (
+				F7303EBD1A49302A00A1AA48 /* Sources */,
+				F7303EBE1A49302A00A1AA48 /* Frameworks */,
+				F7303EBF1A49302A00A1AA48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "蓝牙BLE4.0通讯";
+			productName = "蓝牙BLE4.0通讯";
+			productReference = F7303EC11A49302A00A1AA48 /* 蓝牙BLE4.0通讯.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7303ED31A49302A00A1AA48 /* 蓝牙BLE4.0通讯Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7303EE11A49302A00A1AA48 /* Build configuration list for PBXNativeTarget "蓝牙BLE4.0通讯Tests" */;
+			buildPhases = (
+				F7303ED01A49302A00A1AA48 /* Sources */,
+				F7303ED11A49302A00A1AA48 /* Frameworks */,
+				F7303ED21A49302A00A1AA48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7303ED61A49302A00A1AA48 /* PBXTargetDependency */,
+			);
+			name = "蓝牙BLE4.0通讯Tests";
+			productName = "蓝牙BLE4.0通讯Tests";
+			productReference = F7303ED41A49302A00A1AA48 /* 蓝牙BLE4.0通讯Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7303EB91A49302A00A1AA48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "毕洪博";
+				TargetAttributes = {
+					F7303EC01A49302A00A1AA48 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					F7303ED31A49302A00A1AA48 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = F7303EC01A49302A00A1AA48;
+					};
+				};
+			};
+			buildConfigurationList = F7303EBC1A49302A00A1AA48 /* Build configuration list for PBXProject "蓝牙BLE4.0通讯" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7303EB81A49302A00A1AA48;
+			productRefGroup = F7303EC21A49302A00A1AA48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7303EC01A49302A00A1AA48 /* 蓝牙BLE4.0通讯 */,
+				F7303ED31A49302A00A1AA48 /* 蓝牙BLE4.0通讯Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7303EBF1A49302A00A1AA48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7303ECF1A49302A00A1AA48 /* LaunchScreen.xib in Resources */,
+				F7303ECC1A49302A00A1AA48 /* Images.xcassets in Resources */,
+				F7B8DDE61A4D30EC000BD7FD /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7303ED21A49302A00A1AA48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7303EBD1A49302A00A1AA48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7303ECA1A49302A00A1AA48 /* AppDelegate.m in Sources */,
+				F7303EE61A49305900A1AA48 /* CBCenterViewController.m in Sources */,
+				F7A62FDB1A52336D009ABA89 /* BleFourCommunication.m in Sources */,
+				F7303EC71A49302A00A1AA48 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7303ED01A49302A00A1AA48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7303EDB1A49302A00A1AA48 /* __BLE4_0__Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7303ED61A49302A00A1AA48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7303EC01A49302A00A1AA48 /* 蓝牙BLE4.0通讯 */;
+			targetProxy = F7303ED51A49302A00A1AA48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F7303ECD1A49302A00A1AA48 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7303ECE1A49302A00A1AA48 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7303EDC1A49302A00A1AA48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv7 arm64 armv7s";
+			};
+			name = Debug;
+		};
+		F7303EDD1A49302A00A1AA48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 arm64 armv7s";
+			};
+			name = Release;
+		};
+		F7303EDF1A49302A00A1AA48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "蓝牙BLE4.0通讯/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F7303EE01A49302A00A1AA48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "蓝牙BLE4.0通讯/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F7303EE21A49302A00A1AA48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "蓝牙BLE4.0通讯Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/蓝牙BLE4.0通讯.app/蓝牙BLE4.0通讯";
+			};
+			name = Debug;
+		};
+		F7303EE31A49302A00A1AA48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "蓝牙BLE4.0通讯Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/蓝牙BLE4.0通讯.app/蓝牙BLE4.0通讯";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7303EBC1A49302A00A1AA48 /* Build configuration list for PBXProject "蓝牙BLE4.0通讯" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7303EDC1A49302A00A1AA48 /* Debug */,
+				F7303EDD1A49302A00A1AA48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7303EDE1A49302A00A1AA48 /* Build configuration list for PBXNativeTarget "蓝牙BLE4.0通讯" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7303EDF1A49302A00A1AA48 /* Debug */,
+				F7303EE01A49302A00A1AA48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7303EE11A49302A00A1AA48 /* Build configuration list for PBXNativeTarget "蓝牙BLE4.0通讯Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7303EE21A49302A00A1AA48 /* Debug */,
+				F7303EE31A49302A00A1AA48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7303EB91A49302A00A1AA48 /* Project object */;
+}
